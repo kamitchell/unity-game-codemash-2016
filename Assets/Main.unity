@@ -129,6 +129,10 @@ Prefab:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 7e15121f5f042ed46aba81406403f2d2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a2681c6eba0c14b8fa00cb8979789a00, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7e15121f5f042ed46aba81406403f2d2, type: 3}
   m_IsPrefabParent: 0
@@ -272,6 +276,7 @@ Prefab:
     - target: {fileID: 100002, guid: fa4c7e46d43e2d74aa8f5491fd31e336, type: 3}
       propertyPath: m_TagString
       value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: fa4c7e46d43e2d74aa8f5491fd31e336, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
