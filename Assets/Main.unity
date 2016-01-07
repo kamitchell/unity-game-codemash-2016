@@ -271,6 +271,38 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: fa4c7e46d43e2d74aa8f5491fd31e336, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: fa4c7e46d43e2d74aa8f5491fd31e336, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa4c7e46d43e2d74aa8f5491fd31e336, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: fa4c7e46d43e2d74aa8f5491fd31e336, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa4c7e46d43e2d74aa8f5491fd31e336, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1316526383 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: fa4c7e46d43e2d74aa8f5491fd31e336, type: 3}
+  m_PrefabInternal: {fileID: 1316526382}
+--- !u!64 &1316526384
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1316526383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 0}
