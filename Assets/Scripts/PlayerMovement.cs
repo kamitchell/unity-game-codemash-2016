@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 	{
 		//Get our references
 		navAgent = GetComponent<NavMeshAgent>();
-		//anim = GetComponent<Animator>();		//We will uncomment this during the workshop
+		anim = GetComponent<Animator>();		//We will uncomment this during the workshop
 
 		//Instantiate a waypoint marker
 		navMarker = (GameObject)Instantiate(navMarkerPrefab);
